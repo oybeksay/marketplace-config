@@ -1,0 +1,10 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5151/eureka/
+
+server:
+  port: 5252
+
+jwt:
+  secret: "mySecretKeyForJWTTokenGenerationAndValidation12345678901234567890"
